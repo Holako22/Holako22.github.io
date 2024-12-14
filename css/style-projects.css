@@ -1,0 +1,128 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #1e1e1e; /* Dark background */
+    color: #ffffff; /* White text */
+    margin: 0;
+    padding: 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    background: #1e1e1e;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #00e5ff;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #009eb1;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #00e5ff; /* Bright blue heading */
+    margin-bottom: 20px;
+}
+
+/* Navigation Bar */
+.header {
+    background-color: #292929;
+    padding: 15px 0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-menu li a {
+    color: #00e5ff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+.nav-menu li a:hover {
+    color: #ffffff;
+}
+
+/* Project Section */
+.project-section {
+    padding: 20px;
+}
+
+.projects-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.project-card {
+    background-color: #292929;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    width: 300px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.8);
+}
+
+.project-card img {
+    width: 100%;
+    height: auto;
+    border-bottom: 3px solid #00e5ff;
+}
+
+.project-card h2 {
+    color: #00e5ff;
+    font-size: 1.25rem;
+    margin: 10px 0;
+}
+
+.project-card p {
+    color: #cccccc;
+    font-size: 0.9rem;
+    margin: 0 10px 10px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-bottom: 15px;
+    background-color: #00e5ff;
+    color: #292929;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #00b5cc;
+    color: #ffffff;
+}

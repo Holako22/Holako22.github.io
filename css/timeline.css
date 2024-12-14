@@ -1,0 +1,33 @@
+/* Smooth Scroll Effect */
+html {
+    scroll-behavior: smooth;
+  }
+  
+  /* Timeline Line Styling */
+  .border-l-4 {
+    border-color: #0d9488; /* Tailwind's teal-400 */
+  }
+  
+  /* Timeline Animation */
+  @keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .p-4 {
+    animation: fadeInUp 1s ease-out;
+  }
+  
+  /* Hover Effects */
+  .p-4:hover {
+    background: #115e59; /* Tailwind's teal-700 */
+    transition: 0.3s ease;
+    transform: scale(1.05);
+  }
+  
